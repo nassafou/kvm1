@@ -1,0 +1,6 @@
+---
+- name: cron module demo
+  hosts: localhost
+  tasks:
+   - name: "example cronjob"
+     shell: "sh /home/ubuntu/script.sh"
